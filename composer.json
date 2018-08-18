@@ -1,0 +1,20 @@
+{
+    "name": "bigkucha/grpc-php-client",
+    "authors": [
+        {
+            "name": "BigKuCha",
+            "email": "nevermore1989@vip.qq.com"
+        }
+    ],
+    "require": {
+        "grpc/grpc": "^1.13",
+        "google/protobuf": "v3.6.0.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "GPBMetadata\\": "GPBMetadata",
+            "User\\": "User",
+            "Client\\": "Client"
+        }
+    }
+}
